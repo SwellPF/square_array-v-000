@@ -1,3 +1,4 @@
+require 'pry'
 def square_array(array)
   # your code here
   # squared_numbers = []
@@ -5,10 +6,10 @@ def square_array(array)
   #      squared_numbers.push(number**2)
   # end
   # squared_numbers
-  
+binding.pry  
   array.collect! {|x| x**2}
   
-  
+binding.pry
   
   array
 end
