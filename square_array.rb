@@ -6,7 +6,7 @@ def square_array(array)
   # end
   # squared_numbers
   
-  array.collect{|x|   }
+  array.collect{|x| x**2   }
   
   
   
